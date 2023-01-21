@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
   margin: 0;
   padding: 0;
 }
@@ -19,7 +20,7 @@ a,
 button,
 select,
 textarea {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 500;
   line-height: 27px;
   margin: 0;
@@ -98,4 +99,108 @@ li {
 b,
 strong {
   font-weight: bolder;
+}
+
+body {
+  background: #E6F4FA;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 2.4rem 1.6rem;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  background: #FFF;
+  border-radius: 50%;
+  box-shadow: 0px 8px 24px rgba(6, 22, 28, 0.15);
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.slogan {
+  display: flex;
+  margin-bottom: 2.4rem;
+  justify-content: center;
+}
+
+.bodyI {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 27px;
+  gap: 0.8rem;
+  align-items: center;
+  display: flex;
+}
+
+.containerLinks {
+  gap: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+}
+
+.link {
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 5rem;
+  box-shadow: 0px 8px 24px rgba(6, 22, 28, 0.15);
+  display: flex;
+  gap: 0.8rem;
+  padding: 1.6rem;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.8rem;
+}
+
+.footerLink {
+  font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+.container {
+  max-width: 768px;
+}
+
+.title {
+  font-size: 3.8rem;
+}
+
+.bodyI {
+  font-size: 2.4rem;
+}
+.footerLink {
+  font-size: 1.8rem;
+}
+
+.link {
+  padding: 2rem;
+}
 }
