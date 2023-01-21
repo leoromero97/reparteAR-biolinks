@@ -101,8 +101,20 @@ strong {
   font-weight: bolder;
 }
 
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
 body {
   background: #E6F4FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .main {
@@ -123,6 +135,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2.4rem;
 }
 
 .avatar {
@@ -170,6 +183,13 @@ body {
   gap: 0.8rem;
   padding: 1.6rem;
   width: 100%;
+  transition: ease-in-out 0.4s; 
+}
+
+.link:hover,
+.link:focus {
+  background-color: #37AAD7;
+  padding: 2.4rem 1.6rem;
 }
 
 .footer {
@@ -200,7 +220,24 @@ body {
   font-size: 1.8rem;
 }
 
+.footerLink:focus,
+.footerLink:hover {
+  font-weight: 600;
+}
+
 .link {
   padding: 2rem;
+}
+
+.linkPhone {
+  display: none; 
+}
+
+.header {
+  padding-top: 8rem;
+}
+
+.footer {
+  padding-bottom: 8rem;
 }
 }
