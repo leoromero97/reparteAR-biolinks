@@ -10,7 +10,7 @@ Página web de tipo Linktree de reparteAR. Un lugar para tener todos los enlaces
 - GitHub Pages
 
 ## Development environment
-https://leoromero97.github.io/reparteAR-links/
+https://repartear.com/biolinks/
 
 ## Preview
 
@@ -18,7 +18,8 @@ https://leoromero97.github.io/reparteAR-links/
 mobile
 
 ### Desktop
-desktop
+![reparteAR biolinks](https://user-images.githubusercontent.com/57498210/217346390-f5618d43-d23f-4d9c-8175-efab8e1ca475.png)
+
 
 ## Contact
 Leonardo Esteban Gerbacio Romero
