@@ -218,8 +218,8 @@ body {
 }
 
 .linkIcon {
-  height: 2.4rem;
-  width: 2.4rem;
+  height: 24px;
+  width: 24px;
 }
 
 .footer {
@@ -249,10 +249,6 @@ body {
   .bodyI {
     font-size: 2.4rem;
     line-height: 3.6rem;
-  }
-
-  .link span {
-    font-size: 1.8rem;
   }
 
   .linkPhone {
